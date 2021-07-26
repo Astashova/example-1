@@ -1,0 +1,33 @@
+.advantages {
+  min-height: 470px;
+  background-color: #f6f6f6;
+  padding: 70px 0 75px 0;
+
+  &__items {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    max-width: 245px;
+    margin-top: 65px;
+    text-align: center;
+  }
+
+  &__subheader {
+    margin-top: 38px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  &__text {
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  &__icon {
+    &_animated {
+      animation: heartbeat 2s ease infinite;
+    }
+  }
+}
